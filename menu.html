@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>recommander page</title>
+	<link rel="stylesheet" href="./css/recommander.css" />
+	<link rel="icon" href="./img/icon.PNG">
+</head>
+<body>
+	<!--검색바-->
+	<form class="find-search-bar-form display-flex-center position-relative">
+		<div class="display-flex-center position-relative">
+			<input class="find-search-bar" placeholder="검색하기" />
+			<span class="material-icons-outlined">
+				search
+			</span>
+		</div>
+	</form>
+	<!--추천 가게-->
+	<div class="best-restaurant position-relative">
+		<div class="best-restaurant__img-container">
+			<a href="https://map.naver.com/v5/entry/place/33099281?lng=127.1118153&lat=37.3690888&placePath=%2Fhome&entry=plt&c=15,0,0,0,dh">
+			<img class="best-restaurant__img" src="./img/best-restaurant.jpg"/>
+			</a>
+			<span class="material-symbols-outlined">thumb_up</span>
+		</div>
+		<div class="best-restaurant__title">
+			<p class="best-restaurant__promotion-text">평점이 제일 높은 가게는?</p>
+			<span class="best-restaurant__restaurant-name">돈멜</span>
+		</div>
+	</div>
+	<!--다른 가게 추천-->
+	<div class="restaurant-recommendation">
+		<span class="restaurant-recommendation__title">다른 가게 보기</span>
+		<ul class="restaurant-recommendation__images">
+			<li>
+				<img src="./img/restaurant-recommendation01.png" />
+			</li>
+			<li>
+				<img src="./img/restaurant-recommendation02.jpg" />
+			</li>
+			<li>
+				<img src="./img/restaurant-recommendation03.jpg" />
+			</li>
+			<li>
+				<img src="./img/restaurant-recommendation04.jpg" />
+			</li>
+		</ul>
+	</div>
+	<div class="navigation-bar">
+		<a href="mypage.html">
+			<span class="material-icons-outlined">person_outline</span>
+		</a>
+	</div>
+</body>
+</html>

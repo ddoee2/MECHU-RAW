@@ -1,0 +1,61 @@
+@import "./global.css";
+
+/* 메인 텍스트와 서브 텍스트의 글자 정렬 */
+.login-title {
+    text-align: center;
+}
+
+/* 메인 텍스트 글씨 크기와 색깔 지정 */
+.login-title__maintext {
+    font-size: 2.5rem;
+    color: #e86d66;
+}
+
+/* 서브 텍스트 글씨 크기와 굵기 지정 */
+.login-title__subtext {
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+html,
+body {
+    overflow: auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.login-form input {
+    padding: 15px 0;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    appearance: none;
+    background-color: var(--background-blue);
+    font-size: 1em;
+}
+
+.login-form input:not([type="submit"]) {
+    color:white;
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+    border-color: white;
+}
+
+.login-form input[type="submit"] {
+    color: white;
+    background-color: var(--grey);
+    border-radius: 20px;
+    margin-top: 2rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.login-form input[type="submit"]:active {
+    background-color: var(--grey);
+}

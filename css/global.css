@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+@import "./navigation-bar.css";
+@import "./media-query.css";
+@import "./reset.css";
+@import "./variable.css";
+
+/* 모든 요소를 화면 안에 포함시킴*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--background-blue);
+    color: white
+}
+
+/* 폼 초기화 코드 */
+input {
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-relative {
+    position:relative;
+}

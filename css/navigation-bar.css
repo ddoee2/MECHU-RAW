@@ -1,0 +1,19 @@
+.navigation-bar {
+    /* 네비게이션바의 크기 및 색상 지정 */
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0 10px 0 0;
+    display: flex;
+    /* 네비게이션바의 위치 */
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+/* 아이콘 색상 및 크기 지정*/
+.navigation-bar span {
+    color: black;
+    font-size: 1.5rem;
+}

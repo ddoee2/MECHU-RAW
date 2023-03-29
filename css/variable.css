@@ -1,0 +1,9 @@
+/* 사용자 지정 색상 선언 */
+:root {
+    --grey: #e3d6cc;
+    --darkgrey: #cee2e8;
+    --brown: #af7162;
+    --background-blue: #b6d8fc;
+    --pink: #ff9eaa;
+    --border: rgba(255, 255, 255, 0.5);
+}

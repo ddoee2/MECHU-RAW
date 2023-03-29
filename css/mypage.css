@@ -1,0 +1,131 @@
+@import "./global.css";
+
+/* 프로필 이미지와 텍스트 스타일링 */
+.user-component {
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+.user-component__profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.user-component__profile:hover {
+    transform: translateY(20%) scale(1.1);
+}
+
+.user-component__id {
+    padding-top: 0.3rem;
+    font-size: 1rem;
+}
+
+/* 새 프로필 추가 버튼 위치 및 스타일 지정*/
+.add-profile-btn {
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    font-size: 4rem;
+    font-weight: 100;
+    color: white;
+}
+
+/* 사진 크기 조절 */
+.recent-visit__images img {
+    width: 200px;
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* 사진 여백 조정 */
+.recent-visit {
+    margin-bottom: 25px;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+/* 리스트 스타일 삭제 후 x축으로 스크롤 */
+.recent-visit__images {
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+}
+
+/* 사진과 텍스트를 감싸는 배경 생성 */
+.recent-visit__card {
+    background-color: var(--darkgrey);
+    padding: 5px;
+    border-radius:15px;
+}
+
+/* 최근 방문지 타이틀과 작품 간의 간격 조절 */
+.recent-visit__header {
+    margin-bottom: 15px;
+}
+
+.recent-visit__images li {
+    margin-left: 5px;
+}
+
+/* 사진과 텍스트 사이 간격 조절 */
+.recent-visit__title {
+    display: block;
+    margin: 2px 0;
+    text-align: center;
+}
+/* 이미지 크기 조정 */
+.wishlist__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+/* 경계선 및 헤더 타이틀 간격 지정 */
+.wishlist__header {
+    border-top: 1px solid var(border-color);
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* 찜한 목록 음식 사진 및 정보의 전체 간격 조정 */
+.wishlist-item {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--darkgrey);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+/* 음식 사진 및 정보 세부 간격 및 크기 조정*/
+.wishlist-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.wishlist_title {
+    font-size: 1.2rem;
+}
+
+.wishlist__subtitle {
+    font-size: 0.9rem;
+}
+
+/* 아이콘 스타일링 */
+.wishlist-good-btn span {
+    background-color: var(--pink);
+    border-radius: 50%;
+    opacity: 0.9;
+    font-size: 3rem;
+}
+
+/* 내가 찜한 목록 여백 지정 */
+.wishlist {
+    padding: 0 20px 10px 20px;
+}
